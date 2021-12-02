@@ -417,7 +417,7 @@ CString CAlphaO02Dlg::GetTextListBox() {
 
 
 
-//CString -> 배열
+//문자열에서 char 찾기
 int CAlphaO02Dlg::GetFindCharCount(CString parm_string, char parm_find_char) {
 	int length = parm_string.GetLength(), find_count = 0;
 
